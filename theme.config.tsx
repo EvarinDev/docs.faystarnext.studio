@@ -14,7 +14,7 @@ const config: DocsThemeConfig = {
     docsRepositoryBase: "https://github.com/FAYStarNext/docs.faystarnext.studio/tree/main/",
     chat: {
         icon: "💬",
-        link: "ad",
+        link: "https://discord.gg/8rxufdkeGY",
     },
     notFound: {
         content: 'This page could not be found.',
