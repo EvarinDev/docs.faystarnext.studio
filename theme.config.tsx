@@ -4,7 +4,7 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 const config: DocsThemeConfig = {
     logo: <span>Docs</span>,
     darkMode: true, 
-    docsRepositoryBase: "https://github.com/FAYStarNext/docs.faystarnext.studio",
+    docsRepositoryBase: "https://github.com/FAYStarNext/docs.faystarnext.studio/tree/main/",
     notFound: {
         content: 'This page could not be found.',
         labels: '404',
