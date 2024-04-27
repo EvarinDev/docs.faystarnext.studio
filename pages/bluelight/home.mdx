@@ -1,5 +1,4 @@
 # BlueLight.JS
-![npm]
 A simple way to make your discord bot with bluelight.js
 # Features
 - Low Memory Usage
@@ -21,11 +20,11 @@ npm install bluelight.js | yarn add bluelight.js
 ```ts
 import { Client } from "bluelight.js"
 const client = new Client({
-    intents: 1,
-    token: "YOUR_BOT_TOKEN"
+    intents: 1, // Intents: discord.com/developers/docs/topics/gateway#gateway-intents | https://discord-intents-calculator.vercel.app/
+    token: "YOUR_BOT_TOKEN" // Your bot token
 })
-client.login();
+client.login(); // Connect to gateway
 client.on("ready", () => {
-    console.log("Bot is ready!")
+    console.log("Bot is ready!") // When bot is ready
 })
 ```

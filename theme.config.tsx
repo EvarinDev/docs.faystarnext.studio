@@ -3,6 +3,13 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
     logo: <span>Docs</span>,
+    navbar: {
+        extraContent: "Docs",
+    },
+    banner: {
+        dismissible: true,
+        text: "This is a beta version of the documentation. If you have any questions or suggestions, please contact us.",
+    },
     darkMode: true, 
     docsRepositoryBase: "https://github.com/FAYStarNext/docs.faystarnext.studio/tree/main/",
     notFound: {
